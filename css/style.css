@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    max-width:100vw;
+    width:100vw;
+    overflow-x:hidden;
+}
+section{
+    width:100%;
+}
+.starter{
+    width:100%;
+    height:150px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display:flex;
+}
+.starter .LogoIconContainer{
+    width:40%;
+    height:100%;
+}
+.starter .LogoIconContainer img{
+    width:auto;
+    height:100%;
+}
+.starter .Contact-Info{
+    width:60%;
+    height:100%;
+    display:flex;
+}
+@media screen and (max-width:1200px){
+    .starter .Contact-Info{
+        display:none;
+    }
+}
+.starter .Contact-Info .Contact-section{
+    width:50%;
+    text-align:center;
+    line-height: 30px;
+    padding-top:20px;
+    text-transform: uppercase;
+}
+.header-container{
+    height:50px;
+    width:100%;
+    background-color:red;
+    padding-left:150px;
+    display: flex;
+}
+.header-container button{
+    width:200px;
+    border:none;
+    font-weight:bold;
+    text-transform:uppercase;
+}
