@@ -1,3 +1,9 @@
+window.addEventListener("scroll",
+    function(){
+      var Heading = document.querySelector('.HeaderContainer');
+      Heading.classList.toggle('stick', window.scrollY > 100);
+    })
+
 document.getElementById('more-btn').addEventListener('click',
     function(){
         var headcon = document.querySelector('.header-container-sub');
@@ -38,4 +44,3 @@ document.getElementById('more-btn').addEventListener('click',
       changeSlide(false);
       restart();
     });
-    
