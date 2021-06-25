@@ -266,7 +266,15 @@ section{
         height:60px;
     }
 }
-
+@media screen and (max-width:600px){
+    .holder{
+        padding:2px;
+    }
+    .holder img {
+        width:40px;
+        height:40px;
+    }
+}
 .footer-home{
     width:99vw;
     height: 400px;
@@ -294,11 +302,22 @@ section{
 .footer-main h3{
     padding-bottom:10px;
     text-transform:uppercase;
+    color:green;
 }
 .footer-main-sub{
     width:30%;
     height:100%;
     padding:10px;
+    margin-right:20px;
+}
+.footer-main-sub p a{
+    text-decoration:none;
+    color:#fff;
+}
+.footer-main-sub p a:hover{
+    color:green;
+    transition:0.5s;
+    cursor:pointer;
 }
 .footer-sub{
     width:100vw;
