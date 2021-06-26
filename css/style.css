@@ -365,6 +365,9 @@ section{
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
   }
+  .image-grid h1{
+      text-align:center;
+  }
   .image-grid img {
     display: block;
     margin: 0 5px;
@@ -428,6 +431,11 @@ section{
 .sparePartContainer{
     text-align: center;font-family: 'Train One', cursive;
     padding: 100px;
+  }
+  @media screen and (max-width:1200px){
+      .sparePartContainer{
+          padding:15px;
+      }
   }
   .sparePartContainer h2{
     color:red;
