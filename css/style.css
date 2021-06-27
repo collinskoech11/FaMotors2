@@ -103,6 +103,10 @@ section{
     background-color:red;
     transition:1s;
 }
+.header-container a .acive{
+    color:green !important;
+    background-color:#fff !important;
+}
 .header-container button:hover{
     color:green;
     background-color:#fff;
